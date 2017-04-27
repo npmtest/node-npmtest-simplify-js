@@ -1,6 +1,6 @@
 # npmtest-simplify-js
 
-#### test coverage for  [simplify-js (v1.2.1)](http://mourner.github.com/simplify-js/)  [![npm package](https://img.shields.io/npm/v/npmtest-simplify-js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-simplify-js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-simplify-js.svg)](https://travis-ci.org/npmtest/node-npmtest-simplify-js)
+#### basic test coverage for  [simplify-js (v1.2.1)](http://mourner.github.com/simplify-js/)  [![npm package](https://img.shields.io/npm/v/npmtest-simplify-js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-simplify-js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-simplify-js.svg)](https://travis-ci.org/npmtest/node-npmtest-simplify-js)
 
 #### A high-performance JavaScript 2D/3D polyline simplification library
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-simplify-js/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-simplify-js/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-simplify-js/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-simplify-js/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-simplify-js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-simplify-js/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-simplify-js/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-simplify-js/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-simplify-js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-simplify-js/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-simplify-js/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-simplify-js/build/coverage.html/index.html)
 
@@ -80,7 +80,8 @@
     "scripts": {
         "test": "jshint simplify.js test.js && node test.js | faucet"
     },
-    "version": "1.2.1"
+    "version": "1.2.1",
+    "bin": {}
 }
 ```
 
